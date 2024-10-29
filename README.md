@@ -17,8 +17,8 @@ Aplikasi Laravel untuk mengenkripsi dan mendekripsi teks menggunakan algoritma *
 1. **Clone repository**
 
     ```bash
-    git clone <repository_url>
-    cd <project_name>
+    git clone https://github.com/Putranta/EncryptDecrypt
+    cd EncryptDecrypt
     ```
 
 2. **Install dependencies**
@@ -41,24 +41,7 @@ Aplikasi Laravel untuk mengenkripsi dan mendekripsi teks menggunakan algoritma *
     php artisan key:generate
     ```
 
-4. **Setup database** (jika diperlukan)
-
-    ```plaintext
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=nama_database
-    DB_USERNAME=username_database
-    DB_PASSWORD=password_database
-    ```
-
-    Jalankan migrasi:
-
-    ```bash
-    php artisan migrate
-    ```
-
-5. **Jalankan server**
+4. **Jalankan server**
     ```bash
     php artisan serve
     ```
