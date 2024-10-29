@@ -1,13 +1,10 @@
-Terima kasih sudah menginformasikan! Berikut adalah beberapa penyesuaian README yang mencakup metode-metode enkripsi tersebut:
-
-````markdown
 # Aplikasi Encrypt Decrypt 🔒
 
-Aplikasi Laravel untuk mengenkripsi dan mendekripsi teks menggunakan beberapa metode enkripsi populer: **MD5**, **AES**, **Bcrypt**, **SHA**, dan **Base64**. Aplikasi ini memungkinkan Anda untuk belajar dasar-dasar enkripsi di PHP dengan antarmuka yang sederhana.
+Aplikasi Laravel untuk mengenkripsi dan mendekripsi teks menggunakan algoritma **MD5**, **AES**, **Bcrypt**, **SHA**, dan **Base64**. Aplikasi ini menyediakan antarmuka yang sederhana untuk menunjukkan dasar-dasar enkripsi di PHP.
 
 ## Fitur ✨
 
--   **Enkripsi dengan MD5, AES, Bcrypt, SHA, dan Base64**: Pilih metode enkripsi sesuai kebutuhan.
+-   **AES dan Base64 Encryption/Decryption**: Enkripsi menggunakan AES-256-CBC dan encoding Base64 untuk kompatibilitas data.
 -   **Copy & Reset**: Tombol untuk mengosongkan input dan menyalin teks terenkripsi dengan mudah.
 -   **Desain Responsif**: Dibangun dengan Tailwind CSS, antarmuka mendukung tampilan mobile.
 
@@ -18,11 +15,11 @@ Aplikasi Laravel untuk mengenkripsi dan mendekripsi teks menggunakan beberapa me
 ## Instalasi 🚀
 
 1. **Clone repository**
+
     ```bash
     git clone <repository_url>
     cd <project_name>
     ```
-````
 
 2. **Install dependencies**
 
@@ -70,7 +67,7 @@ Aplikasi Laravel untuk mengenkripsi dan mendekripsi teks menggunakan beberapa me
 
 1. **Buka aplikasi**: Kunjungi `http://localhost:8000` di browser.
 2. **Masukkan Teks**: Tulis teks yang ingin Anda enkripsi atau dekripsi.
-3. **Pilih Metode**: Tentukan metode enkripsi yang diinginkan (MD5, AES, Bcrypt, SHA, atau Base64).
+3. **Pilih Metode**: Tentukan metode enkripsi yang diinginkan (AES atau Base64).
 4. **Encrypt / Decrypt**:
     - Klik **Encrypt** untuk mengenkripsi teks.
     - Klik **Decrypt** untuk mendekripsi teks kembali ke bentuk aslinya.
@@ -97,8 +94,3 @@ Didekripsi: Hello World
 ## Lisensi 📄
 
 Proyek ini open-source dan tersedia di bawah [Lisensi MIT](https://opensource.org/licenses/MIT).
-
-```
-
-Ini akan memastikan README Anda menunjukkan semua metode enkripsi yang digunakan dalam proyek, dan gambar tangkapan layar di `public/screenshots` akan ditampilkan dengan benar.
-```
