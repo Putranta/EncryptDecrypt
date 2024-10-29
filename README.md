@@ -1,6 +1,6 @@
 # Aplikasi Encrypt Decrypt 🔒
 
-Aplikasi Laravel untuk mengenkripsi dan mendekripsi teks menggunakan algoritma **AES** dan **Base64**. Aplikasi ini menyediakan antarmuka yang sederhana untuk menunjukkan dasar-dasar enkripsi di PHP.
+Aplikasi Laravel untuk mengenkripsi dan mendekripsi teks menggunakan algoritma **MD5**, **AES**, **Bcrypt**, **SHA**, dan **Base64**. Aplikasi ini menyediakan antarmuka yang sederhana untuk menunjukkan dasar-dasar enkripsi di PHP.
 
 ## Fitur ✨
 
